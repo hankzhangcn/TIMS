@@ -1,0 +1,13 @@
+.contentflow .workspace table{
+    border-style: solid;
+    border-width:1px 0px 0px 1px;
+    padding:5px;
+}
+.contentflow .workspace td{
+    border-style: solid;
+    border-width:0px 1px 1px 0px;
+    min-width: 40px;
+    padding:10px;
+    text-align: center;
+}
+table{border-collapse:collapse}

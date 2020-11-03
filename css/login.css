@@ -1,0 +1,106 @@
+/*LOGIN 页面比较特殊， 需要单独CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body,main {
+  height: 100%;
+}
+
+body {
+  /*为 macOS 、 Windows 、以及 Linux 提供更好的字体展示*/
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font: 14px/1.5;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(44, 44, 44);
+}
+
+ul,li{
+  list-style: none;
+}
+
+body {
+	background: linear-gradient(to right top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://s1.ax1x.com/2020/06/24/NaXEAP.jpg) center center  ;
+	min-height: 500px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.loginpad {
+  position: absolute;
+  left: calc(50% - 250px);
+  top: -100%;
+  height: 450px;
+  border-radius:30px;
+  width: 500px;
+  padding: 40px 40px 80px 40px;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(30px);
+    /*Edge17-18*/
+    -webkit-backdrop-filter: blur(30px);
+  box-shadow: 0 0 100px 4px rgba(0,0,0,0.3)
+}
+
+
+
+.loginpad .title{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.loginpad .title a {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+
+
+.loginpad .content {
+  padding:  10px 40px 10px 40px;
+}
+
+.loginpad .errormsg {
+  color: #ddd;
+  font-size: 14px;
+}
+
+.loginpad .content .input-field {
+  position: relative;
+  margin-top: 20px;
+}
+
+
+
+.loginpad .content input[type=text],
+.loginpad .content input[type=password] {
+  width: 100%;
+  height: 50px;
+  padding: 10px 10px 10px 28px;
+  border: none;
+  border-radius:15px;
+}
+
+.loginpad .content input[type=submit] {
+  padding: 15px 50px;
+  border: none;
+  background: rgba(68, 68, 68, 0.342);
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  position: absolute;
+  left: calc(50% - 62px);
+  top:calc(50% + 7px);
+  transition: 1s background-color ease ;
+}
+
+.loginpad .content input[type=submit]:hover {
+  background-color: rgba(0, 0, 0, 0.795);
+  
+}
+
+

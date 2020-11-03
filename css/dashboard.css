@@ -1,0 +1,26 @@
+/*仪表盘 的 动画必要CSS*/
+.topbar{
+    top: -500px;
+}
+.funclist-pad{
+    top: 100%;
+}
+.contentflow .noticepad{
+    margin-top: 100%;
+}
+
+.contentflow .workspace{
+    margin-top: 100%;
+}
+
+.contentflow .bottom{
+    margin-top: 100%;
+}
+
+
+body::-webkit-scrollbar{/*隐藏纵向滚动条*/
+    display: none;
+}
+.topbar .tbright a{
+    cursor: pointer;
+}

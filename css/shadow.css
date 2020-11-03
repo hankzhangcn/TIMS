@@ -1,0 +1,54 @@
+/*小部件美化*/
+/*按钮*/
+input[type="submit"],
+.workspace input[type="button"]{
+  padding: 15px 50px;
+  margin-top: 30px;
+    border: none;
+    background-color: rgba(68, 68, 68, 0.342);
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    transition:0.5s box-shadow ease ;
+  }
+/*文本框*/
+input[type="text"],
+input[type="password"],
+.info input[type="date"]{
+    height: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    min-width: 300px;
+    transition: box-shadow 0.25s ease;
+}
+/*悬浮*/
+.noticepad input:hover,
+input[type="submit"]:hover,
+.workspace input:hover,
+.select:hover{
+      box-shadow:0 10px 8px rgba(0, 0, 0, 0.158);
+  }
+
+/*边线*/
+select:focus,
+.noticepad input:focus,
+.info input[type="date"]{
+    outline: none;
+}
+/*下拉框的DIV辅助美化*/
+.select {
+    width: 300px;
+    overflow: hidden;
+    border-radius: 10px;	
+    transition:0.25s box-shadow  ease;
+    margin: 20px;
+}
+select {
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+}

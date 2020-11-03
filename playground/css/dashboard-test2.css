@@ -1,0 +1,94 @@
+
+main {
+	background: linear-gradient(to right top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.432)), url(https://s1.ax1x.com/2020/06/10/toPYJP.jpg) center center  ;
+	min-height: 500px;
+    background-size: cover;
+  }
+
+
+
+.dashboard{
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    padding: 40px 40px 80px 40px;
+    background-color: rgba(255, 255, 255, 0.623);
+    backdrop-filter: blur(30px);
+    /*Edge17-18*/
+    -webkit-backdrop-filter: blur(30px);
+    box-shadow: 0 0 100px 4px rgba(0,0,0,0.3);
+    border-radius: 0px 40px 40px 0px;
+    overflow-y:scroll;/*纵向可以滚动*/
+    overflow-x: hidden;/*禁止横向滚动*/
+}
+.dashboard::-webkit-scrollbar{/*隐藏纵向滚动条*/
+    display: none;
+}
+
+
+.dashboard .title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.dashboard .title a{
+    font-size: large;
+}
+
+.dashboard .welcome{
+    text-align: center;
+    margin-top: 30px;
+}
+.dashboard .funclist{
+    margin-top: 30px;
+}
+
+.dashboard .funclist input{
+
+    border: 10px;
+    background: rgba(68, 68, 68, 0);
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: -40px;
+    font-size: large;
+    cursor: pointer;
+    font-weight: 900;
+    transition: background-color 0.3s ease;
+}
+.dashboard .funclist .kqgzt{
+    padding: 30px 83px;
+}
+
+.dashboard .funclist .xgmm,
+.dashboard .funclist .jszc,
+.dashboard .funclist .jssx,
+.dashboard .funclist .zxdl,
+.dashboard .funclist .jsll {
+
+    padding: 30px 113px;
+}
+
+.dashboard .funclist input[type=button]:hover{
+    background: rgba(255, 255, 255, 0.342);
+}
+
+
+
+
+
+.workspace{
+	position: absolute;
+	left:calc(300px + 20px);
+	top:5%;
+	right:20px;
+    height: 90%;
+    padding: 40px 40px 40px 40px;
+    background-color: rgba(255, 255, 255, 0.623);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 100px 4px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+.workspace .wstitle a{
+
+	font-size: 70px;
+	font-weight: lighter;
+}
