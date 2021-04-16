@@ -25,20 +25,42 @@ Opera		64
 
 ------------
 
+# 项目图表
+## ER-系统
+![系统ER图-tims](https://cdn.jsdelivr.net/gh/hankzhangcn/CDN@master/img/系统ER图-tims.7l9gf5bwnqs0.png)
+
+<!-- ## 流程-新增教师信息
+![新增教师信息-tims](https://cdn.jsdelivr.net/gh/hankzhangcn/CDN@master/img/新增教师信息-tims.6rrpvj6suvk0.png)
+
+## 流程-修改教师信息
+![修改教师信息-tims](https://cdn.jsdelivr.net/gh/hankzhangcn/CDN@master/img/修改教师信息-tims.2q02v95q6qk0.png)
+
+## 流程-登录
+![登录流程图-tims](https://cdn.jsdelivr.net/gh/hankzhangcn/CDN@master/img/登录流程图-tims.3e2633beb7w0.png) -->
+
+# 预览
+![主界面](https://cdn.jsdelivr.net/gh/hankzhangcn/CDN@master/img/主界面.14ik9y4dc1sw.png)
+![教师一览](https://cdn.jsdelivr.net/gh/hankzhangcn/CDN@master/img/教师一览.7ds5nks91jw0.png)
+![教师筛选](https://cdn.jsdelivr.net/gh/hankzhangcn/CDN@master/img/教师筛选.6hhzifbxdgs0.png)
+
+# 功能gif
+## 登录动效
+<video id="video" controls="" preload="none">
+    <source id="mp4" src="https://cdn.jsdelivr.net/gh/hankzhangcn/CDN@master/img/media1.mp4" type="video/mp4">
+</video>
+## 模糊搜索
+![模糊搜索-tims](https://cdn.jsdelivr.net/gh/hankzhangcn/CDN@master/img/模糊搜索-tims.98j1fe59ctk.gif)
+
+## ID检查
+![ID检查-tims](https://cdn.jsdelivr.net/gh/hankzhangcn/CDN@master/img/ID检查-tims.3y75qqcsrnu0.gif)
+
+------------
 
 
 # Daily
 单引号`「」`标识div、注释、列名等小型内容块。
 
 双引号`『』`标识页面，表名等文件型。
-
-### 备注
-#### 正在生效
-Null
-#### 已作废
-`VIEW` `SEARCH` `CHANGEPW`使用同一个表格视图CSS
-
-`Menage` `add` 同一个CSS
 
 
 ------------
