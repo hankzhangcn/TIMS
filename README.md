@@ -45,9 +45,8 @@ Opera		64
 
 # 功能gif
 ## 登录动效
-<video id="video" controls="" preload="none">
-    <source id="mp4" src="https://cdn.jsdelivr.net/gh/hankzhangcn/CDN@master/img/media1.mp4" type="video/mp4">
-</video>
+![tims-登录-未优化的gif](https://cdn.jsdelivr.net/gh/hankzhangcn/CDN@master/img/tims-登录-未优化的gif.1c0qy03jbo9s.gif)
+
 ## 模糊搜索
 ![模糊搜索-tims](https://cdn.jsdelivr.net/gh/hankzhangcn/CDN@master/img/模糊搜索-tims.98j1fe59ctk.gif)
 
